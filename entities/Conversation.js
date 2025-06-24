@@ -1,8 +1,8 @@
 const { EntitySchema } = require("typeorm");
 
 module.exports = new EntitySchema({
-  name: "Messages",
-  tableName: "MESSAGES",
+  name: "Conversation",
+  tableName: "CONVERSATION",
   columns: {
     id: {
       primary: true,
@@ -10,28 +10,22 @@ module.exports = new EntitySchema({
       generated: "uuid",
       nullable: false,
     },
-    role: {
+    userId: {
       type: "varchar",
-      length: 20,
+      length: 100,
       nullable: false,
+      name: "user_id",
     },
-    content: {
-      type: "text",
-      nullable: false,
-    },
-    timestamp: {
+    lastActivity: {
       type: "timestamp",
+      name: "last_activity",
       nullable: false,
     },
-  },
-  relations: {
-    conversation: {
-      type: "many-to-one",
-      target: "Conversation",
-      joinColumn: {
-        name: "conversation_id",
-      },
-      onDelete: "CASCADE",
+    createdAt: {
+      type: "timestamp",
+      createDate: true,
+      name: "created_at",
+      nullable: false,
     },
   },
 });
