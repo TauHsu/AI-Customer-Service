@@ -98,9 +98,10 @@ OPENAI_API_KEY=your_openaiApiKey
 ---
 
 ## 關於作者
-
-- 姓名: Tau 
-  - Email: jason850629@gmail.com
-  - GitHub: https://github.com/TauHsu
+```bash
+姓名: Tau 
+Email: jason850629@gmail.com
+GitHub: https://github.com/TauHsu
+```
 
 如果您有任何問題或建議，歡迎與我聯繫。感謝閱讀！
