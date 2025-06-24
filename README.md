@@ -9,7 +9,7 @@
 - 即時收集客戶提問熱點
 
 ### 平台網址
-前台：[https://lightpickers.github.io/Frontend-Dev-React/#/](https://lightpickers.github.io/Frontend-Dev-React/#/
+前台：[https://lightpickers.github.io/Frontend-Dev-React/#/](https://lightpickers.github.io/Frontend-Dev-React/#/)
 
 ---
 
