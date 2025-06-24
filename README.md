@@ -55,7 +55,9 @@ cd AI-Customer-Service
 npm install
 ```
 #### 環境變數設定
+```bash
 請在終端機輸入 cp .env.example .env 來複製 .env.example 檔案，並依據 .env 內容調整相關欄位。
+```
 #### 運行專案
 ```bash
 node bin/www.js
@@ -87,8 +89,6 @@ DB_ENABLE_SSL=true               # 若部署於 Render、Heroku 等通常需設�
 # OpenAI Config
 OPENAI_API_KEY=your_openaiApiKey
 ```
-
----
 
 ---
 
